@@ -1,0 +1,8 @@
+build/
+builddir/
+test/sandbox
+.DS_Store
+test1.exe
+test1.out
+*.sublime-project
+*.sublime-workspace
