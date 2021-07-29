@@ -8,6 +8,7 @@ jobs:
     steps: 
       - checkout
       - run: uname -a
+      - run: cat /proc/cpuinfo 
       - run: make
   build-runner: 
     machine: true
@@ -15,6 +16,7 @@ jobs:
     steps: 
       - checkout
       - run: uname -a
+      - run: cat /proc/cpuinfo 
       - run: make
 workflows: 
   build:
